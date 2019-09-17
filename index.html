@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>So long, gay Bowser!</title>
+  <style type="text/css">
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div id="asdf" class="container"></div>
+  <script type="text/javascript">
+    var asdf = document.getElementById("asdf");
+
+    for (var i=0;i <= (window.innerHeight/300 * 4);i++) {
+      str = '<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="300" height="300" type="text/html" src="https://www.youtube.com/embed/fnafd8t4Y9Y?autoplay=1&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=' + (10 * i) + '&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="http://add-link-exchange.com">ww://add-link-exchange.com</a></small></div></iframe>'
+      asdf.insertAdjacentHTML( 'beforeend', str );
+    }
+  </script>
+</body>
+</html>
